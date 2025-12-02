@@ -38,9 +38,9 @@ os.system("cls")  # Limpiar la consola (Windows)
 # else:
 #     print("Suspenso") 
 
-print("\nSentencia condicional doble con operadores lógicos")
-edad = 20
-tiene_licencia = False
+# print("\nSentencia condicional doble con operadores lógicos")
+# edad = 20
+# tiene_licencia = False
 
 # if edad >= 18 and tiene_licencia:
 #     print("Puedes conducir")
@@ -78,13 +78,13 @@ tiene_licencia = False
 # if es_el_tres:
 #     print("El número es tres")
 
-print("\nLa condición ternaria:")
+# print("\nLa condición ternaria:")
 # es una forma concisa de un if-else para asignar valores o ejecutar expresiones basadas en una condición.
 # [código si cumple la condición] if [condición] else [código si no cumple la condición]
 
-edad = 14
-mensaje = "Eres mayor de edad" if edad >= 18 else "Eres menor de edad"
-print(mensaje)
+# edad = 14
+# mensaje = "Eres mayor de edad" if edad >= 18 else "Eres menor de edad"
+# print(mensaje)
 
 ###
 # EJERCICIOS
@@ -93,14 +93,46 @@ print(mensaje)
 # Ejercicio 1: Determinar el mayor de dos números
 # Pide al usuario que introduzca dos números y muestra un mensaje
 # indicando cuál es mayor o si son iguales
+# a = int(input("Introduce el primer número: "))
+# b = int(input("Introduce el segundo número: "))
+# if a > b:
+#     print(f"El número {a} es mayor que {b}.")
+# elif a < b:
+#     print(f"El número {b} es mayor que {a}.")
+# else:
+#     print("Ambos números son iguales.")
 
 # Ejercicio 2: Calculadora simple
 # Pide al usuario dos números y una operación (+, -, *, /)
 # Realiza la operación y muestra el resultado (maneja la división entre zero)
+# num1 = int(input("Introduce el primer número: "))
+# num2 = int(input("Introduce el segundo número: "))
+# operacion = input("Introduce la operación (+, -, *, /): ")
+
+# if operacion == "+":
+#     resultado = num1 + num2
+#     print(f"El resultado de {num1} + {num2} es {resultado}.")
+# elif operacion == "-":
+#     resultado = num1 - num2
+#     print(f"El resultado de {num1} - {num2} es {resultado}.")
+# elif operacion == "*":
+#     resultado = num1 * num2
+#     print(f"El resultado de {num1} * {num2} es {resultado}.")
+# elif operacion == "/":
+#     if num2 != 0:
+#         resultado = num1 / num2
+#         print(f"El resultado de {num1} / {num2} es {resultado}.")
+#     else:
+#         print("Error: No se puede dividir entre cero.")
 
 # Ejercicio 3: Año bisiesto
 # Pide al usuario que introduzca un año y determina si es bisiesto.
 # Un año es bisiesto si es divisible por 4, excepto si es divisible por 100 pero no por 400.
+# año = int(input("Introduce un año: "))
+# if (año % 4 == 0 and año % 100 != 0) or (año % 400 == 0):
+#     print(f"El año {año} es bisiesto.")
+# else:
+#     print(f"El año {año} no es bisiesto.")
 
 # Ejercicio 4: Categorizar edades
 # Pide al usuario que introduzca una edad y la clasifique en:
@@ -109,3 +141,14 @@ print(mensaje)
 # - Adolescente (13-17 años)
 # - Adulto (18-64 años)
 # - Adulto mayor (65 años o más)
+# edad = int(input("Introduce una edad: "))
+# if 0 <= edad <= 2:
+#     print(f"La edad {edad} corresponde al grupo Bebé")
+# elif 3 <= edad <= 12:
+#     print(f"La edad {edad} corresponde al grupo Niño")
+# elif 13 <= edad <= 17:
+#     print(f"La edad {edad} corresponde al grupo Adolescente")
+# elif 18 <= edad <= 64:
+#     print(f"La edad {edad} corresponde al grupo Adulto")
+# else:
+#     print(f"La edad {edad} corresponde al grupo Adulto mayor")
