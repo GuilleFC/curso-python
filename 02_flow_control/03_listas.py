@@ -60,6 +60,9 @@ print(lista1)
 lista1 += [4,5,6]
 print(lista1)
 
+# Recuperar la longitud de una lista
+print("Longitud de la lista", len(lista1))
+
 ###
 # EJERCICIOS
 ###
