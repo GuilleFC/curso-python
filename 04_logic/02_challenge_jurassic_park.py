@@ -18,4 +18,4 @@ def count_carnivore_dinosaur_eggs(eggs_list: list[int]) -> int:
             total_eggs += eggs
     return total_eggs
 
-print(count_carnivore_dinosaur_eggs([3, 4, 7, 10, 12, 5]))  # Debería devolver 26 (4 + 10 + 12)
+print(count_carnivore_dinosaur_eggs([3, 4, 7, 10, 12, 5]))
